@@ -71,11 +71,18 @@ ul li img{
 .btn{
     background-color: #04366C;
     padding: 15px 35px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: bisque;
     font-size: 13px;
     border: none;
     font-style: italic;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.btn:hover{
+    background-color: beige;
+    color: black;
 }
 
 .hero-text{
@@ -97,4 +104,96 @@ ul li img{
 .hero-text p{
     font-size: 18px;
     line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+.parent-text-icon{
+    padding-top: 200px;
+}
+
+.child-icon img{
+    width: 100px;
+}
+
+.child-icon{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 100px;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+.child-text{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+.appointment{
+    background-color: #9CC4EC;
+    margin-top: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.appoinment-icon img{
+    width: 150px;
+}
+
+.appoinment-text h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.appoinment-icon{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+
+
+
+.doctor-img img{
+    width: 350px;
+    height: 400px;
+}
+.doctor-img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    gap: 115px;
+    
+}
+
+.doctor-text h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 40px;
+    margin-top: 70px;
+}
+
+.img-1{
+    background-color: #9CC4EC;
+    border-radius: 10px;
+}
+.img-2{
+    background-color: #9CC4EC;
+    border-radius: 10px;
+}
+.img-3{
+    background-color: #9CC4EC;
+    border-radius: 10px;
 }
