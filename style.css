@@ -197,3 +197,93 @@ ul li img{
     background-color: #9CC4EC;
     border-radius: 10px;
 }
+
+
+
+
+
+.review1{
+    background-color: #9CC4EC;
+    width: 390px;
+    height: 412px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgb(138, 137, 137);
+}
+.review2{
+    background-color: #9CC4EC;
+    width: 390px;
+    height: 412px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgb(138, 137, 137);
+}
+.review3{
+    background-color: #9CC4EC;
+    width: 390px;
+    height: 412px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgb(138, 137, 137);
+}
+
+.hos-logo{
+    width: 50px;
+    padding-top:10px;
+    padding-left: 10px;
+}
+
+.patient-review-text{
+    display: flex;
+    gap: 60px;
+    
+}
+
+.patient-review{
+    padding-top: 20px;
+    margin-top: 100px;
+}
+
+.patient-text{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.review1  p{
+margin-top: 40px;
+text-align: justify;
+padding: 10px;
+}
+.review2 p{
+    margin-top: 40px;
+text-align: justify;
+padding: 10px;
+}
+.review3 p{
+    margin-top: 40px;
+text-align: justify;
+padding: 10px;
+}
+
+
+
+.review-img img{
+    width: 50px;
+}
+
+.review-img-name{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 50px;
+    box-shadow: 0 5px 5px 0 rgb(104, 100, 100);
+    padding-left: 10px;
+}
+
+
+
+.gg{
+    border-bottom: 12px solid blue;
+    width: 80px;
+    text-align: center;
+    display:block;
+    display: flex;
+}
