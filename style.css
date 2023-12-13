@@ -296,12 +296,16 @@ padding: 10px;
     width: 60%;
     line-height: 20px;
     padding-top: 80px;
+    letter-spacing: 1px;
+    
    
 }
 
 .qustion{
     text-align: center;
-    padding-top: 100px;
+    margin-top: 100px;
+    font-size: 40px;
+    padding: 50px;
 }
 
 .text1 p{
@@ -309,21 +313,24 @@ padding: 10px;
 }
 
 .asked-qus-img img{
-    width: 400px;
+    width: 600px;
+    
 }
 
 .qustion-logo1 img{
-    width: 30px;
+    width: 20px;
 }
 .qustion-logo2 img{
-    width: 30px;
+    width: 20px;
+    margin-left: 28px;
 }
 .asked-qustion-text2{
     display: flex;
     gap: 30px;
 }
 .qustion-logo3 img{
-    width: 30px;
+    width: 20px;
+    margin-left: 23px;
 }
 
 .ask-qustion-text3{
@@ -331,7 +338,9 @@ padding: 10px;
     gap: 30px;
 }
 .qustion-logo4 img{
-    width: 30px;
+    width: 20px;
+    margin-left: 106px;
+
 }
 
 .ask-qustion-text4{
