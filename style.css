@@ -291,7 +291,18 @@ padding: 10px;
 .asked-qus-img{
     width: 40%;
     padding-left: 90px;
+    position: relative;
 }
+
+.asked-qus-img-logo{
+    position: absolute;
+    padding-left: 600px;
+    margin-top: 30px;
+}
+.asked-qus-img-logo img{
+    width: 80px;
+}
+
 .asked-qustion-text{
     width: 60%;
     line-height: 20px;
@@ -356,4 +367,43 @@ padding: 10px;
 
 h4{
     font-size: 20px;
+}
+
+
+
+
+/* lfooter area start */
+
+.logo-email img{
+    width: 250px;
+}
+
+.link-profile-guide{
+    display: flex;
+    gap: 60px;
+    width: 40%;
+}
+
+.link-profile-guide h5{
+    color: #3f6c9a;
+}
+
+.footer-all-text{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.logo-email{
+    width: 60%;
+}
+.logo-email h6{
+    font-size: 15px;
+}
+
+/* footer area end */
+
+span{
+   color: darkorange;
 }
