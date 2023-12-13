@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
     
 }
 body{
@@ -282,6 +283,9 @@ padding: 10px;
 
 
 
+
+
+
 .asked-qustion-text1{
     display: flex;
     gap: 30px;
@@ -308,6 +312,7 @@ padding: 10px;
     line-height: 20px;
     padding-top: 80px;
     letter-spacing: 1px;
+    
     
    
 }
@@ -368,6 +373,93 @@ padding: 10px;
 h4{
     font-size: 20px;
 }
+
+
+/* placeholder section start */
+
+#name{
+    width: 300px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #04366C;
+}
+
+#email{
+    width: 300px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #04366C;
+}
+
+#number{
+    width: 300px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #04366C;
+}
+
+#message{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #04366C;
+    
+    
+}
+.btnm{
+    background-color: #04366C;
+    padding: 15px 35px;
+    border-radius: 10px;
+    color: bisque;
+    font-size: 13px;
+    border: none;
+    font-style: italic;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.btnm:hover{
+    background-color: beige;
+    color: black;
+}
+.placeholder-img{
+    width: 50%;
+}
+.placeholder-img img{
+    width: 400px;
+}
+.all-placeholder-and-img{
+    display: flex;
+    gap: 50px;
+    background-color:#9CC4EC;
+    border-radius: 20px;
+    margin-top: 100px;
+    
+}
+.place-holder{
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+/* placeholder section end */
 
 
 
