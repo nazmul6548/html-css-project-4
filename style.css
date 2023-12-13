@@ -280,10 +280,71 @@ padding: 10px;
 
 
 
-.gg{
-    border-bottom: 12px solid blue;
-    width: 80px;
-    text-align: center;
-    display:block;
+
+
+.asked-qustion-text1{
     display: flex;
+    gap: 30px;
+}
+
+
+.asked-qus-img{
+    width: 40%;
+    padding-left: 90px;
+}
+.asked-qustion-text{
+    width: 60%;
+    line-height: 20px;
+    padding-top: 80px;
+   
+}
+
+.qustion{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text1 p{
+    text-align: justify;
+}
+
+.asked-qus-img img{
+    width: 400px;
+}
+
+.qustion-logo1 img{
+    width: 30px;
+}
+.qustion-logo2 img{
+    width: 30px;
+}
+.asked-qustion-text2{
+    display: flex;
+    gap: 30px;
+}
+.qustion-logo3 img{
+    width: 30px;
+}
+
+.ask-qustion-text3{
+    display: flex;
+    gap: 30px;
+}
+.qustion-logo4 img{
+    width: 30px;
+}
+
+.ask-qustion-text4{
+    display: flex;
+    gap: 30px;
+}
+
+
+.asked-qustion-img-text{
+    display: flex;
+    gap: 180px;
+}
+
+h4{
+    font-size: 20px;
 }
