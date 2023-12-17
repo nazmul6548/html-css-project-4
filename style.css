@@ -502,7 +502,7 @@ span{
 
 
 
-@media  screen and (max-width:550px) {
+@media  screen and (max-width:500px) {
     .container{
         max-width: 100%;
         margin: 0 auto;
