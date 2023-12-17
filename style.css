@@ -519,6 +519,10 @@ span{
         text-align: center;
         visibility: hidden;
     }
+    .hero-dotted-img{
+        /* visibility: hidden; */
+        display: none;
+    }
     .first-logo{
         display: block;
 
@@ -608,11 +612,15 @@ span{
        
     }
     .asked-qus-img-logo img{
-        visibility: hidden;
+        display: none;
     }
     .asked-qus-img img{
-        width: 380px;
+        width:400px;
+        display: block;
        
+    }
+    .asked-qus-img {
+        margin-left: -10px;
     }
   
     .asked-qustion-text{
