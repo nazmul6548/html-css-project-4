@@ -41,7 +41,6 @@ img{
 
 }
 
-
 ul li img{
     width: 70px;
 }
@@ -498,4 +497,72 @@ h4{
 
 span{
    color: darkorange;
+}
+
+
+
+
+@media  screen and (max-width:600px) {
+    .container{
+        max-width: 100%;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .list-items ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        visibility: hidden;
+    }
+    .first-logo{
+        display: block;
+
+    }
+    .hero-text-img{
+        display: flex;
+        flex-direction: column;
+        line-height: 15px;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-text h1{
+        font-size: 40px;
+        
+        
+    }
+    .hero-text p{
+        font-size: 15px;
+        
+    }
+    .hero-main-img img{
+        width: 80%;
+       
+    }
+    .hero-main-img{
+       
+      
+    }
+    .hero-dotted-img img{
+        width: 50px;
+    }
+    .hero-img{
+        display: flex;
+        
+        justify-content: center;
+    }
+    .parent-text-icon{
+        padding-top: 500px;
+    }
+    .child-text h1{
+        font-size: 40px;
+    }
+    .child-icon{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
