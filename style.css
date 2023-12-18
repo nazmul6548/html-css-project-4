@@ -126,7 +126,9 @@ ul li img{
     display: grid;
     grid-template-columns:repeat(3,1fr);
     gap: 100px;
-    margin-left: 200px;
+    padding-left: 200px;
+    
+    
     padding-top: 50px;
 }
 
@@ -455,7 +457,8 @@ h4{
 }
 .place-holder{
     width: 50%;
-    margin-left: 90px;
+    /* margin-left: 90px; */
+    padding: 90px;
     margin-top: 80px;
 }
 /* placeholder section end */
@@ -572,6 +575,14 @@ span{
         text-align: center;
         display: flex;
         flex-direction: column;
+        padding-left: 125px;
+        /* padding-right: 100px; */
+        
+    }
+    .child-icon img{
+        width: 50%;
+        
+        
     }
     .appointment{
         /* width: 400px;
@@ -605,7 +616,7 @@ span{
     .patient-review{
         margin-top: 1000px;
     }
-    .qustion{
+    .qustion h1{
         font-size: 35px;
     }
     .asked-qustion-img-text{
@@ -618,7 +629,7 @@ span{
         display: none;
     }
     .asked-qus-img img{
-        width:100%;
+        width:400%;
         display: block;
        
     }
@@ -635,12 +646,33 @@ span{
         display: flex;
         flex-direction: column;
         text-align: center;
-        justify-content: center;
+        /* justify-content: center; */
         line-height: 30px;
     }
     .placeholder-img{
         
         width: 100%;
+    }
+    #email{
+       
+        width: 100%;
+    }
+    #message{
+        width: 100%;
+    }
+    #number{
+        width: 100%;
+    }
+    #name{
+        width: 100%;
+    }
+    .btnm{
+        width: 100%;
+    }
+    .place-holder{
+       width: 100%;
+
+      
     }
     .footer-all-text{
         display: flex;
