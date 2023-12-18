@@ -502,7 +502,7 @@ span{
 
 
 
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:600px) {
     .container{
         max-width: 100%;
         margin: 0 auto;
@@ -535,7 +535,8 @@ span{
         text-align: center;
     }
     .hero-text h1{
-        font-size: 40px;
+        font-size: 30px;
+        line-height: 45px;
         
         
     }
@@ -545,6 +546,7 @@ span{
     }
     .hero-main-img img{
         width: 80%;
+        ;
        
     }
     .hero-main-img{
@@ -560,10 +562,11 @@ span{
         justify-content: center;
     }
     .parent-text-icon{
-        padding-top: 500px;
+        margin-top: 500px;
     }
     .child-text h1{
-        font-size: 40px;
+        font-size: 35px;
+        align-items: center;
     }
     .child-icon{
         text-align: center;
@@ -600,7 +603,7 @@ span{
         
     }
     .patient-review{
-        padding-top: 1000px;
+        margin-top: 1000px;
     }
     .qustion{
         font-size: 35px;
